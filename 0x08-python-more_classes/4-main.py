@@ -21,3 +21,6 @@ print(repr(new_rectangle))
 print("--")
 print(hex(id(new_rectangle)))
 print("--")
+
+print(new_rectangle is my_rectangle)
+print(type(new_rectangle) is type(my_rectangle))
