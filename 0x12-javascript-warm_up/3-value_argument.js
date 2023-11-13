@@ -1,10 +1,11 @@
 #!/usr/bin/node
+
 /*
- * a script that prints the first argument passed to it
+ * A script that prints the first argument passed to it
  */
 
-const argCount = process.argv.slice(2)
+const argument = process.argv.slice(2);
 
-if (argCount[0]) {
-  console.log(argCount[0]);
+if (argument[0]) {
+  console.log(argument[0]);
 } else { console.log('No argument'); }
